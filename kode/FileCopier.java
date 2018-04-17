@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class FileReadWrite{
+public class FileCopier{
 
    public static void main(String[] args) throws FileNotFoundException{
    
