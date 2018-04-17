@@ -5,11 +5,9 @@ public class FileCopier{
 
    public static void main(String[] args) throws FileNotFoundException{
    
-      // create File object
-      File f = new File("dataind.txt");
-      while (!f.canRead()){
-      // create Scanner object
-      Scanner input = new Scanner(f);
+      // åbn Scanner fra brugerens input
+      Scanner consol = new Scanner(System.in);
+      Scanner input = inputScanner(consol);
       // create PrintStream
       PrintStream output = new PrintStream("dataud.txt");
       //stakit-problem: læs og skriv første ord uden mellemrum
@@ -20,16 +18,31 @@ public class FileCopier{
             // læs og skriv ud
             output.print(" " + input.next());
          }
-         }
       }
-      
-
-      // skriv med println/print/printf...
-      //output.println("Min første fil");
-      //output.println("den næste linie!");
-      //System.out.println("Min første fil er skrevet!");
-      
-      
+      System.out.println("Filen er kopieret til dataud.txt");
    }
+            
+      
 
+   public static Scanner inputScanner(Scanner console) throws FileNotFoundException{
+      //åbn fil fra brugerens input
+      System.out.print("Filnavn: ");
+      String filename = console.next();
+      // create File object
+      File f = new File(filename);
+      
+      //check om fil findes og spørgs indtil den gør
+      while (!f.canRead()){
+         //åbn fil fra brugerens input
+         System.out.println("Kan ikke åbne filen. Prøv igen.");
+         System.out.print("Filnavn: ");
+         filename = console.next();
+         // create File object
+         f = new File(filename);   
+      }
+
+      // return Scanner object
+      return new Scanner(f);
+   }
+   
 }
