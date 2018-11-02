@@ -1,7 +1,7 @@
 # 31_Files_Write
 
 ## Agenda
-Aflevering i Fronter: https://help.fronter.com/en/fronter/index.php/Hand-in
+Aflevering i Fronter: https://help.fronter.com/en/fronter/index.php/Hand-in#How_to_hand_in_a_task
 
 Øvelser med File & Scanner til læsning af filer
 
