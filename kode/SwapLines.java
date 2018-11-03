@@ -12,8 +12,8 @@ public class SwapLines{
       //PrintStream
       
       //while flere linier
-      //   læs lines
-      //   skriv lines i omvendt rækkefølge
+      //   læs linier
+      //   skriv linier i omvendt rækkefølge
    }
 
 }
