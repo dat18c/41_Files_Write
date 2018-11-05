@@ -4,12 +4,6 @@ import java.util.Scanner;
 public class Exercise1arrays
 {
 
-   //type enum for dreng/pige
-   public enum Gender
-   {
-      BOY, GIRL
-   }
-
    public static void main(String[] args)
    throws FileNotFoundException
    {
