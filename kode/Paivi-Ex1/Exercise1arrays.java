@@ -22,8 +22,10 @@ public class Exercise1arrays
       int[] taellerArray = new int[2];
       //sumArray til at summere drenge (index 0) og piger (index 1)
       int[] sumArray = new int[2];
+      int index = 0; //index variabel til array
+      int temp = 0; //temp til læsning af tal
       int forskel;
-      int i = 0;
+      int i = 0; //tæller til antal drenge & piger
       //while kører så længe nye elementer
       while(input.hasNext())
       {
@@ -31,8 +33,10 @@ public class Exercise1arrays
          String element = input.next();
          //drenge er lige, pigerne ulige
          //hvis modulus 0, dreng. Vi tæller antallet af piger og drenge. Vi regner summen     
-         taellerArray[i % 2]++;
-         sumArray[i % 2] += input.nextInt();
+         index = i % 2;
+         taellerArray[index]++;
+         temp = input.nextInt();
+         sumArray[index] += temp;
          i++ ;  
       }
     //vi printer summene og regne forskellen
