@@ -15,6 +15,8 @@ Sikring af at filen kan læses med canRead()
 
 Skrivning til filer med File & PrintStream
 
+KanBan boards
+
 ## Øvelser
 Reges p. 462 -463 ex. 8, 9, 10
 
