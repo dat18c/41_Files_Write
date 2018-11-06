@@ -17,3 +17,7 @@ Skrivning til filer med File & PrintStream
 
 ## Øvelser
 Reges p. 462 -463 ex. 8, 9, 10
+
+## Ekstra om Arrays
+* Lav en byttemetode: Elementerne i det ene array skal kopieres over i det andet
+* Skoleprojekt
