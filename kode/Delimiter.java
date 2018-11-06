@@ -12,7 +12,7 @@ public class Delimiter
       Scanner in = new Scanner(inputFile);
       
       //definer skilletegn
-      //in.useDelimiter("\t");
+      in.useDelimiter("\t");
       
       //så længe der er flere ord at læse
       while (in.hasNext())
