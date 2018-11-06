@@ -17,6 +17,8 @@ public class SkriveEksemplet
       output.println("Hello Dat18c");
       output.println("Vi kan skrive!");
       //loop gennem inputfil og skriv til outputfil
+      // hasNextLine()
+      // output hvad der læses fra nextLine() på input scanner
    }
 
 }
