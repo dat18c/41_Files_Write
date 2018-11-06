@@ -20,4 +20,5 @@ Reges p. 462 -463 ex. 8, 9, 10
 
 ## Ekstra om Arrays
 * Lav en byttemetode: Elementerne i det ene array skal kopieres over i det andet
-* Skoleprojekt
+* Skoleprojekt: lav swapArrays, der bytter om på to arrays
+* avanceret (simulering af ArrayList): lav og brug addStudent og removeStudent
