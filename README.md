@@ -18,9 +18,9 @@ Skrivning til filer med File & PrintStream
 KanBan boards
 
 ## Øvelser
-Reges p. 462 -463 ex. 8, 9, 10
+Reges p. 462 - 463 ex. 8, 9, 10
 
 ## Ekstra om Arrays
 * Lav en byttemetode: Elementerne i det ene array skal kopieres over i det andet
-* Skoleprojekt: lav swapArrays, der bytter om på to arrays
-* avanceret (simulering af ArrayList): lav og brug addStudent og removeStudent
+* Skoleprojekt: lav swapArrays, der bytter om på to arrays - brug Skole.java for en pædagogisk øvelse
+* avanceret (simulering af ArrayList): lav og brug addStudent og removeStudent - 
