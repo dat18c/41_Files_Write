@@ -37,7 +37,7 @@ public class Skole
       
    }
 
-   //swapArrays(Students studs1, Students studs2)
+   //public void swapArrays(Student[] studs1, Student[] studs2)
          
    //addStudent(Student[] studs, Student stud) metode, der tilføjer en ekstra studerende
    //lav et nyt array, der er et element større
