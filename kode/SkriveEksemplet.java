@@ -8,22 +8,24 @@ public class SkriveEksemplet
       throws FileNotFoundException
    {
       //åben input fil
-      //filobjekt
       File inputFil = new File("referencer.txt");
       //scanner
       Scanner input = new Scanner(inputFil);
             
       //åben output fil
       File outputFil = new File("dat18c.txt");
+      //lav printstream
       PrintStream output = new PrintStream(outputFil);
-      output.println("Hello Dat18c");
-      output.println("Vi kan skrive!");
+
       //loop gennem inputfil og skriv til outputfil
       // hasNextLine()
       while (input.hasNextLine())
       {
          // output hvad der læses fra nextLine() på input scanner
-         output.println(input.nextLine());
+         //dvs. læs fra inputscanneren med nextLine()
+         String tekst = input.nextLine();
+         //   og skriv til output med println()
+         output.println(tekst);
       }
    }
 
